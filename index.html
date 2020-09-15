@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stats</title>
+    <style>
+.myIframe {
+     position: relative;
+     padding-bottom: 40%;
+     padding-top: 30px;
+     height: 0;
+     overflow: auto; 
+     -webkit-overflow-scrolling:touch; //<<--- THIS IS THE KEY 
+     border: solid black 1px;
+} 
+.myIframe iframe {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+}
+  </style>
+  </head>
+  <body>
+      <h1 align=center>Statistics</h1>
+      <div class="myIframe">
+        <iframe class="responsive-iframe" seamless frameborder="0" scrolling="yes" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTbqjRo8AqXl170dYMnl0cIgnosXOpR4EryRMzWnlx_-CfnEY3XHMxlOapHA0y_gFDtxke_IsuOhm33/pubchart?oid=1978381806&amp;format=interactive"></iframe>
+    </div>
+    <div class="myIframe">
+    <iframe class="responsive-iframe" seamless frameborder="0" scrolling="yes" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTbqjRo8AqXl170dYMnl0cIgnosXOpR4EryRMzWnlx_-CfnEY3XHMxlOapHA0y_gFDtxke_IsuOhm33/pubchart?oid=590487628&amp;format=interactive"></iframe>
+</div>
+
+</body>
+</html>
